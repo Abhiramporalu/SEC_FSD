@@ -1,0 +1,471 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f57777;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Updated Navbar Styles */
+.navbar {
+  background-color: #343a40; /* Dark background */
+  border-bottom: 3px solid #ffc107; /* Bottom border */
+  font-family: 'Bungee Spice', cursive; /* Apply Bungee Spice font */
+  font-size: 1.2rem; /* Adjust font size for visibility */
+  color: #ffffff; /* Text color for contrast */
+  text-transform: uppercase; /* Make text uppercase for emphasis */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffc107 !important; /* Yellow branding */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1; /* Ensures equal space for children */
+}
+
+.nav-item {
+  flex: 1; /* Ensures equal width for all nav items */
+  text-align: center; /* Center-aligns the text */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* White links */
+  font-size: 1.1rem;
+  padding: 8px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* Yellow hover effect */
+  background-color: #495057; /* Darker background on hover */
+  border-radius: 5px;
+}
+
+.nav-item .dropdown-menu {
+  background-color: #343a40; /* Dropdown background */
+  border: 1px solid #495057; /* Border around dropdown */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #495057; /* Dark hover effect */
+  color: #615737 !important;
+}
+
+.navbar-toggler {
+  border-color: #ffc107; /* Yellow border for toggler */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%288,123,255,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-outline-success {
+  color: #070707 !important; /* Yellow text for the button */
+  border-color: #ffc107 !important; /* Yellow border */
+}
+
+.btn-outline-success:hover {
+  background-color: #ffc107 !important; /* Yellow background on hover */
+  color: #343a40 !important; /* Dark text on hover */
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ffc107; /* Yellow border for search box */
+}
+
+/* Movie Card Styling */
+/* Movie Card Styling */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: white;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.movie-card h3 {
+  margin: 0 0 10px;
+  color: #d524f4;
+}
+
+.movie-card p {
+  margin: 5px 0;
+  color: #f0cf13;
+}
+
+/* Styling for the Movie Image */
+.movie-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* Ensures the image fits within the box while maintaining its aspect ratio */
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Animation for the hover effect */
+}
+
+/* Hidden Details initially */
+.movie-details {
+  display: none; /* Details are hidden by default */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #ed1e07;
+  padding: 20px;
+  text-align: left;
+  z-index: 10;
+}
+
+/* Hover Effect to Show Movie Details */
+.movie-card:hover .movie-image {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.movie-card:hover .movie-details {
+  display: block; /* Show details on hover */
+}
+
+/* Styling for Buttons inside Movie Details */
+.movie-card .dropdown-menu {
+  background-color: #343a40;
+  border: 1px solid #495057;
+}
+
+.movie-card .dropdown-item {
+  color: #fff !important;
+  padding: 10px;
+}
+
+.movie-card .dropdown-item:hover {
+  background-color: #495057;
+  color: #ffc107;
+}
+
+.movie-card button {
+  background-color: #838382;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-card button:hover {
+  background-color: #585858;
+}
+.dropdown {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 1000; /* Ensure the dropdown appears above other content */
+}
+/* Custom dropdown button styles */
+.custom-dropdown-btn {
+  background-color: #f6f62e; /* Button background color */
+  color: white; /* Text color */
+  border: none;
+}
+
+.custom-dropdown-btn:hover {
+  background-color: #edc72c; /* Button hover color */
+}
+
+/* Custom dropdown item (button) styles */
+.custom-dropdown-item {
+  background-color: #e0e7e2; /* Green background for the item */
+  color: white; /* White text color */
+  border: none;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #cfd0d0; /* Darker green on hover */
+}
+
+/* Optional: If you want to change the hover color for other dropdown items */
+.custom-dropdown-item:focus,
+.custom-dropdown-item:active {
+  background-color: #f7faf7; /* Change for focus or active state */
+}
+/* CSS for Admin Panel */
+/* Advanced CSS for Admin Panel */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, #4d4c4c, #535252);
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen__content {
+  z-index: 1;
+  width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(100, 99, 99, 0.2);
+}
+
+.login h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login__field {
+  margin-bottom: 15px;
+}
+
+.login__input {
+  width: 100%;
+  background: #f0f0f0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login__input:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.5);
+}
+
+textarea.login__input {
+  resize: none;
+  height: 80px;
+}
+
+.login__submit {
+  width: 100%;
+  background: linear-gradient(45deg, #6a11cb, #f5f552);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+}
+
+.login__submit:hover {
+  background: linear-gradient(45deg, #f9e633, #6a11cb);
+  transform: scale(1.05);
+}
+
+.login__submit:active {
+  transform: scale(0.98);
+}
+
+/* Background Styling */
+.screen__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.screen__background__shape {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f8dc41, #6a11cb);
+}
+
+.screen__background__shape1 {
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+}
+
+.screen__background__shape2 {
+  top: 150px;
+  right: -150px;
+  width: 300px;
+  height: 300px;
+}
+
+.screen__background__shape3 {
+  bottom: -100px;
+  left: -100px;
+  width: 250px;
+  height: 250px;
+}
+
+.screen__background__shape4 {
+  bottom: 50px;
+  right: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .screen__content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login h1 {
+    font-size: 24px;
+  }
+
+  .login__input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .login__submit {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .screen__content {
+    padding: 15px;
+  }
+
+  .login__input {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .login__submit {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+/* Edit Movie Container */
+.edit-movie {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.edit-movie h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+/* Form Styling */
+.edit-movie form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input Fields */
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Textarea */
+.form-group textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Submit Button */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #101010;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.movie-player {
+  padding: 20px;
+  text-align: center;
+}
+
+.video-container {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+
