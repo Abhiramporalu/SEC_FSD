@@ -1,0 +1,355 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "synopsis": "A thief who steals corporate secrets through dream-sharing technology.",
+      "rating": "4.9",
+      "releaseDate": "2010-07-16",
+      "image": "https://th.bing.com/th/id/OIP.fYLXgLBnnbp3N8JCRuUIGAHaLH?w=116&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
+    },
+    {
+      "id": "2",
+      "title": "The Matrix",
+      "genre": "Action",
+      "synopsis": "A computer hacker learns about the true nature of reality.",
+      "rating": "8.7",
+      "releaseDate": "1999-03-25",
+      "image": "images/thematrix.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "rating": "7",
+      "releaseDate": "1994-09-22",
+      "image": "images/shawshank.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "synopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life.",
+      "rating": "8.8",
+      "releaseDate": "1994-07-06",
+      "image": "images/forrestgump.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Godfather",
+      "genre": "Crime",
+      "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "rating": "9.2",
+      "releaseDate": "1972-03-24",
+      "image": "images/godfather.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "synopsis": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "rating": "9.0",
+      "releaseDate": "1993-12-15",
+      "image": "images/schindlerlist.jpg"
+    },
+    {
+      "id": "10",
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Action",
+      "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "rating": "8.9",
+      "releaseDate": "2003-12-17",
+      "image": "images/thelordoftherings.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Interstellar 2",
+      "genre": "Sci-Fi",
+      "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "rating": "8.6",
+      "releaseDate": "2014-11-07",
+      "image": "images/interstellar.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Gladiator",
+      "genre": "Action",
+      "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "rating": "8.5",
+      "releaseDate": "2000-05-05",
+      "image": "images/gladiator.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Lion King",
+      "genre": "Animation",
+      "synopsis": "A lion cub prince is cast out of his pride and leaves his kingdom only to learn the true meaning of responsibility and bravery.",
+      "rating": "8.5",
+      "releaseDate": "1994-06-15",
+      "image": "images/tehlionking.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Avatar",
+      "genre": "Sci-Fi",
+      "synopsis": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "rating": "7.8",
+      "releaseDate": "2009-12-18",
+      "image": "images/avatar.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Se7en",
+      "genre": "Crime",
+      "synopsis": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.",
+      "rating": "8.6",
+      "releaseDate": "1995-09-22",
+      "image": "images/se7en..jpg"
+    },
+    {
+      "id": "17",
+      "title": "The Prestige",
+      "genre": "Drama",
+      "synopsis": "Two magicians engage in a bitter rivalry, each trying to best the other with their latest illusions.",
+      "rating": "8.5",
+      "releaseDate": "2006-10-20",
+      "image": "images/theprestige.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Shutter Island",
+      "genre": "Mystery",
+      "synopsis": "A U.S. Marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+      "rating": "8.1",
+      "releaseDate": "2010-02-19",
+      "image": "images/shutterisland.jpg"
+    },
+    {
+      "id": "19",
+      "title": "The Dark Knight Rises",
+      "genre": "Action",
+      "synopsis": "Eight years after the Joker's reign of terror, Batman is forced to come out of retirement when a masked vigilante, Bane, threatens Gotham City.",
+      "rating": "8.4",
+      "releaseDate": "2012-07-20",
+      "image": "images/thedarknightrises.jpg"
+    },
+    {
+      "id": "23",
+      "title": "Magadheera",
+      "genre": "Fantasy",
+      "synopsis": "A warrior reincarnates to save his love from an ancient curse.",
+      "rating": "7.7",
+      "releaseDate": "2009-07-30",
+      "image": "images/Magadheera.jpg"
+    },
+    {
+      "id": "27",
+      "title": "Geetha Govindam",
+      "genre": "Romance",
+      "synopsis": "A lecturer tries to win over a woman after their relationship begins awkwardly.",
+      "rating": "7.7",
+      "releaseDate": "2018-08-15",
+      "image": "images/geeta_govindam.jpg"
+    },
+    {
+      "id": "28",
+      "title": "Ala Vaikunthapurramuloo",
+      "genre": "Comedy",
+      "synopsis": "A man discovers he was swapped at birth with another family.",
+      "rating": "7.3",
+      "releaseDate": "2020-01-12",
+      "image": "images/ala.jpg"
+    },
+    {
+      "id": "29",
+      "title": "Drushyam",
+      "genre": "Thriller",
+      "synopsis": "A cable operator fabricates an alibi to protect his family from a murder investigation.",
+      "rating": "8.3",
+      "releaseDate": "2014-07-11",
+      "image": "images/drushyam.jpg"
+    },
+    {
+      "id": "30",
+      "title": "RRR",
+      "genre": "Action",
+      "synopsis": "Two revolutionaries join forces to fight against British colonial rule.",
+      "rating": "8.0",
+      "releaseDate": "2022-03-25",
+      "image": "images/RRR.jpg"
+    },
+    {
+      "id": "31",
+      "title": "Baahubali: The Beginning",
+      "genre": "Fantasy",
+      "synopsis": "An orphaned man learns about his royal lineage and his quest to reclaim his throne.",
+      "rating": "8.0",
+      "releaseDate": "2015-07-10",
+      "image": "images/baahubali_beginning.jpg"
+    },
+    {
+      "id": "32",
+      "title": "Baahubali: The Conclusion",
+      "genre": "Fantasy",
+      "synopsis": "The story of Mahendra Baahubali's battle to reclaim his father's kingdom.",
+      "rating": "8.2",
+      "releaseDate": "2017-04-28",
+      "image": "images/baahubali_conclusion.jpg"
+    },
+    {
+      "id": "33",
+      "title": "Arjun Reddy",
+      "genre": "Romance",
+      "synopsis": "A surgeon's self-destructive path after a breakup.",
+      "rating": "2",
+      "releaseDate": "2017-08-25",
+      "image": "images/arjun_reddy.jpg"
+    },
+    {
+      "id": "34",
+      "title": "Pushpa: The Rise",
+      "genre": "Action",
+      "synopsis": "A laborer rises through the ranks of the red sandalwood smuggling business.",
+      "rating": "7.6",
+      "releaseDate": "2021-12-17",
+      "image": "images/pushpa.jpg"
+    },
+    {
+      "id": "35",
+      "title": "Eega",
+      "genre": "Fantasy",
+      "synopsis": "A man reincarnates as a fly to seek revenge on his murderer.",
+      "rating": "7.7",
+      "releaseDate": "2012-07-06",
+      "image": "images/eega.jpg"
+    },
+    {
+      "id": "37",
+      "title": "Jersey",
+      "genre": "Drama",
+      "synopsis": "A cricketer makes a comeback to fulfill his son's wish.",
+      "rating": "8.5",
+      "releaseDate": "2019-04-19",
+      "image": "images/jersey.jpg"
+    },
+    {
+      "id": "38",
+      "title": "Srimanthudu",
+      "genre": "Action",
+      "synopsis": "A wealthy businessman adopts a village to develop it and finds purpose in life.",
+      "rating": "7.7",
+      "releaseDate": "2015-08-07",
+      "image": "images/srimanthudu.jpg"
+    },
+    {
+      "id": "39",
+      "title": "Attarintiki Daredi",
+      "genre": "Drama",
+      "synopsis": "A man tries to reunite his estranged family by resolving long-standing conflicts.",
+      "rating": "7.4",
+      "releaseDate": "2013-09-27",
+      "image": "images/attarintiki_daredi.jpg"
+    },
+    {
+      "id": "40",
+      "title": "Sye",
+      "genre": "Action",
+      "synopsis": "Two rival college groups unite to save their campus from a powerful landlord through a rugby match.",
+      "rating": "7.7",
+      "releaseDate": "2004-09-23",
+      "image": "images/sye.jpg"
+    },
+    {
+      "id": "41",
+      "title": "Rangasthalam",
+      "genre": "Drama",
+      "synopsis": "A hearing-impaired man stands up against corruption in his village.",
+      "rating": "8.4",
+      "releaseDate": "2018-03-30",
+      "image": "images/rangasthalam.jpg"
+    },
+    {
+      "id": "42",
+      "title": "Ala Modalaindi",
+      "genre": "Romantic Comedy",
+      "synopsis": "A love story filled with unexpected twists and coincidences.",
+      "rating": "7.8",
+      "releaseDate": "2011-01-21",
+      "image": "images/ala_modalaindi.jpg"
+    },
+    {
+      "id": "43",
+      "title": "Vedam",
+      "genre": "Drama",
+      "synopsis": "Five lives converge in a gripping tale of love, sacrifice, and redemption.",
+      "rating": "8.2",
+      "releaseDate": "2010-06-04",
+      "image": "images/vedam.jpg"
+    },
+    {
+      "id": "44",
+      "title": "Khaleja",
+      "genre": "Fantasy",
+      "synopsis": "A taxi driver discovers he is destined to save a village plagued by a mysterious disease.",
+      "rating": "7.7",
+      "releaseDate": "2010-10-07",
+      "image": "images/khaleja.jpg"
+    },
+    {
+      "id": "45",
+      "title": "Businessman",
+      "genre": "Action",
+      "synopsis": "A man with a mysterious past sets out to establish himself as a powerful mafia leader in Mumbai.",
+      "rating": "7.1",
+      "releaseDate": "2012-01-13",
+      "image": "images/businessman.jpg"
+    },
+    {
+      "id": "46",
+      "title": "Ye Maaya Chesave",
+      "genre": "Romance",
+      "synopsis": "A filmmaker falls for a girl with family restrictions and tries to win her love.",
+      "rating": "7.7",
+      "releaseDate": "2010-02-26",
+      "image": "images/ye_maaya_chesave.jpg"
+    },
+    {
+      "id": "47",
+      "title": "Evaru",
+      "genre": "Thriller",
+      "synopsis": "A corrupt cop unravels a complex web of lies while investigating a murder.",
+      "rating": "8.2",
+      "releaseDate": "2019-08-15",
+      "image": "images/evaru.jpg"
+    },
+    {
+      "id": "48",
+      "title": "Agent Sai Srinivasa Athreya",
+      "genre": "Comedy Thriller",
+      "synopsis": "A small-town detective uncovers a big conspiracy while investigating a case.",
+      "rating": "8.4",
+      "releaseDate": "2019-06-21",
+      "image": "images/agent_sai.jpg"
+    },
+    {
+      "id": "49",
+      "title": "Geetanjali",
+      "genre": "Romance",
+      "synopsis": "A terminally ill man falls in love, but fate has its own plans.",
+      "rating": "8.1",
+      "releaseDate": "1989-05-01",
+      "image": "images/geetanjali.jpg"
+    },
+    {
+      "id": "52",
+      "title": "Guntur Kaaram",
+      "genre": "Action",
+      "synopsis": "A high-octane action drama set against the backdrop of Guntur's vibrant culture.",
+      "rating": "N/A",
+      "releaseDate": "2024-01-12",
+      "image": "images/gunturkaram.jpg"
+    }
+  ]
+}
